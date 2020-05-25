@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "mkdir themes && cd themes && git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console && ./makefile hugo-server"
+command = "mkdir themes && cd themes && git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console && hugo-server -D"
 
 [context.production.environment]
 HUGO_VERSION = "0.69.2"
